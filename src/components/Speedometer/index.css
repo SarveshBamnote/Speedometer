@@ -1,0 +1,52 @@
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 80%;
+  max-width: 1200px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+}
+.image {
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 500px;
+  }
+}
+.head {
+  font-size: 22px;
+  color: #ffffff;
+}
+.para {
+  color: #cbd5e1;
+}
+.button {
+  height: 30px;
+  width: 90px;
+  border-radius: 6px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+}
+.brake-btn {
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  color: #94a3b8;
+}
